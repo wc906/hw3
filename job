@@ -9,4 +9,4 @@
 #SBATCH --mail-type=end    # email me when the job finishes
 #SBATCH -A TG-ASC150003    # account number
 export OMP_NUM_THREADS=2
-./gs-omp              # run the MPI executable named a.out
+./gs-omp 100000              # run the MPI executable named a.out
